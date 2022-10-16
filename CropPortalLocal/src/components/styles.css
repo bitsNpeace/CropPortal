@@ -1,0 +1,101 @@
+/* header styles */
+
+.header {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+}
+.centerButton{
+  
+  position: relative;
+  left: 40%;
+  
+  /* -ms-transform: translateY(-50%); */
+  /* transform: translateY(-50%); */
+}
+.centerButton:hover{
+  /* transform: scale(0.9)!important; */
+  -webkit-transform: scale(1.05) !important;
+  -ms-transform: scale(1.05) !important;
+  transform: scale(1.05) !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+/* Home Page */
+
+.home {
+  display: flex;
+  width: '105%';
+}
+.home::before{
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(#f00,#f0f); */
+  clip-path: circle(30% at right 70%);
+}
+.home::after{
+  content: ' ';
+  position: absolute;
+  overflow: hidden;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(#2196f3,#e91e63); */
+  clip-path: circle(20% at 10% 10%);
+}
+
+.cardIn:hover{
+  text-shadow: none !important;
+  box-sizing: border-box !important;
+  /* cursor: pointer !important; */
+  transition: all 0.8s ease !important;
+  -webkit-transform: scale(1.05) !important;
+  -ms-transform: scale(1.05) !important;
+  transform: scale(1.05) !important;
+}
+.cardInto:hover{
+  text-shadow: none !important;
+  box-sizing: border-box !important;
+  /* cursor: pointer !important; */
+  transition: all 0.8s ease !important;
+  -webkit-transform: scale(1.1) !important;
+  -ms-transform: scale(1.1) !important;
+  transform: scale(1.1) !important;
+}
+
+
+.hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 2em 0;
+  padding: 0;
+}
+
+
+.title {
+  font-size: 30px;
+}
+
+.productContainer {
+  /* display: flex; */
+  width: 100%;
+  color: black;
+  padding: 20px;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
